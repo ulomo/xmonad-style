@@ -146,6 +146,7 @@ windowCount = gets $ Just . show . length . W.integrate' . W.stack . W.workspace
 -- startup app when xmonad starts
 myStartupHook :: X ()
 myStartupHook = do
+    spawnOnce "xmodmap .Xmodmap"
     spawnOnce "xmobar &"
     spawnOnce "xautolock -time 180 -locker 'systemctl suspend' -detectsleep"
     spawnOnce "picom  --experimental-backends --config .config/picom/picom.conf -b"
