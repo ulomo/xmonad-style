@@ -14,9 +14,10 @@ xmonad的配置放在`~/.xmonad`下，需要编译`xmonad --recompile`后才可�
  > window layout
 
   1. 关于窗口样式：采用了三种，一种是平铺，一种是堆叠（默认），还有一种系统自带的悬浮（modkey+alt+鼠标左键/右键），使用快捷键modkey+space切换。
-     ![](https://imgtu.com/i/gJGZm8)
-     ![](https://imgtu.com/i/gJGmTg)
-     ![](https://imgtu.com/i/gJGe0S)
+     [![gJNB5D.png](https://z3.ax1x.com/2021/05/09/gJNB5D.png)](https://imgtu.com/i/gJNB5D)
+     [![gJNs8H.png](https://z3.ax1x.com/2021/05/09/gJNs8H.png)](https://imgtu.com/i/gJNs8H)
+     [![gJNrPe.png](https://z3.ax1x.com/2021/05/09/gJNrPe.png)](https://imgtu.com/i/gJNrPe)  
+
   2. 平铺的窗口样式做了动态调整，但是基础只有两种（tile，gird），没整其它花里胡哨的。当只有一个窗口时居中，两个/三个时正常的tile，四个及以上grid。
   3. 窗口的border边框也支持动态调整，一个窗口时无边框，多于一个时才会有边框。
 
